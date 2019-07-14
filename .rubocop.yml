@@ -1,0 +1,12 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  DisabledByDefault: true
+  Exclude: []
+
+inherit_from:
+  - .layout.yml
+  - .lint.yml
+  - .metrics.yml
+  - .naming.yml
+  - .security.yml
+  - .style.yml

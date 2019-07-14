@@ -1,0 +1,24 @@
+Metrics/AbcSize:
+  Enabled: true
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - "**/*.gemspec"
+    - "**/Rakefile"
+    - "**/*.rake"
+    - "spec/**/*.rb"
+
+Metrics/CyclomaticComplexity:
+  Enabled: true
+
+Metrics/LineLength:
+  Enabled: true
+  IgnoreCopDirectives: true
+  Max: 120
+
+Metrics/ParameterLists:
+  Enabled: true
+
+Metrics/PerceivedComplexity:
+  Enabled: true
