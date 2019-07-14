@@ -32,9 +32,6 @@ Lint/DuplicateMethods:
 Lint/DuplicatedKey:
   Enabled: true
 
-Lint/EachWithObjectArgument:
-  Enabled: true
-
 Lint/ElseLayout:
   Enabled: true
 
