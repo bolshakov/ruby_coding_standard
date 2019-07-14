@@ -194,6 +194,3 @@ Lint/UselessElseWithoutRescue:
 
 Lint/UselessSetterCall:
   Enabled: true
-
-Lint/Void:
-  Enabled: true
