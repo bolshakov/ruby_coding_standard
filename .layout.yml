@@ -1,14 +1,14 @@
 Layout/AccessModifierIndentation:
   EnforcedStyle: indent
 
-Layout/AlignArguments:
+Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation
 
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedHashRocketStyle: key
   EnforcedColonStyle: key
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 
 Layout/BlockAlignment:
@@ -102,28 +102,27 @@ Layout/FirstMethodParameterLineBreak:
 Layout/HeredocArgumentClosingParenthesis:
   Enabled: true
 
-Layout/IndentAssignment:
+Layout/AssignmentIndentation:
   Enabled: true
 
-Layout/IndentFirstArgument:
+Layout/FirstArgumentIndentation:
   Enabled: true
   EnforcedStyle: consistent
 
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   Enabled: true
   EnforcedStyle: consistent
 
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   Enabled: true
   EnforcedStyle: consistent
 
-Layout/IndentFirstParameter:
+Layout/FirstParameterIndentation:
   Enabled: true
   EnforcedStyle: consistent
 
-Layout/IndentHeredoc:
+Layout/HeredocIndentation:
   Enabled: true
-  EnforcedStyle: squiggly
 
 Layout/IndentationConsistency:
   Enabled: true
@@ -136,7 +135,7 @@ Layout/IndentationWidth:
 Layout/InitialIndentation:
   Enabled: true
 
-Layout/LeadingBlankLines:
+Layout/LeadingEmptyLines:
   Enabled: true
 
 Layout/LeadingCommentSpace:
@@ -266,13 +265,18 @@ Layout/SpaceInsideReferenceBrackets:
   EnforcedStyle: no_space
   EnforcedStyleForEmptyBrackets: no_space
 
-Layout/Tab:
+Layout/IndentationStyle:
   Enabled: true
 
-Layout/TrailingBlankLines:
+Layout/TrailingEmptyLines:
   Enabled: true
   EnforcedStyle: final_newline
 
 Layout/TrailingWhitespace:
   Enabled: true
   AllowInHeredoc: false
+
+Layout/LineLength:
+  Enabled: true
+  IgnoreCopDirectives: true
+  Max: 120
