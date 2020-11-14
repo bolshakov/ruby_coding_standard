@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ruby_coding_standard (0.2.0)
+    ruby_coding_standard (0.3.0)
       rubocop (~> 1.0.0)
 
 GEM
