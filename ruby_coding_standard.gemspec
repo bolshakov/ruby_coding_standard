@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email = ["either.free@gmail.com"]
 
   spec.summary = "Ruby coding standard focused on reducing unnecessary changes, consistency, and developer's happiness."
-  spec.description = "Ruby coding standard focused on reducing unnecessary changes, consistency, and developer's happiness."
+  spec.description = spec.summary
   spec.homepage = "https://github.com/bolshakov/ruby_coding_standard"
 
   # Specify which files should be added to the gem when it is released.
@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
 
-  spec.add_runtime_dependency "rubocop"
+  spec.add_runtime_dependency "rubocop", "~> 1.0.0"
 end
